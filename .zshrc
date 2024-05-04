@@ -140,3 +140,7 @@ export PATH="$PATH:/opt/sqldeveloper"
 export PATH="$PATH:/opt/nvim-linux64/bin"
 PATH=~/.console-ninja/.bin:$PATH
 
+
+# fnm
+export PATH="/home/figuritx/.local/share/fnm:$PATH"
+eval "`fnm env`"
